@@ -1,0 +1,20 @@
+package com.thelocalmarketplace.software;
+
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import com.tdc.CashOverloadException;
+import com.tdc.ComponentFailure;
+import com.tdc.DisabledException;
+import com.tdc.NoCashAvailableException;
+import com.tdc.coin.Coin;
+import com.thelocalmarketplace.hardware.SelfCheckoutStation;
+
+import ca.ucalgary.seng300.simulation.NullPointerSimulationException;
+import ca.ucalgary.seng300.simulation.SimulationException;
+
+public class ReceiptHandler extends SelfCheckoutStation {
+  
+}
